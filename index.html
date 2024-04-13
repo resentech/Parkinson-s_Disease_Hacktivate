@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<title>Parkinson's Disease Hack</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="robbiebot/robbiebot.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="robbiebot/robbiedata.js"></SCRIPT>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script  src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://tympanus.net/Development/ButtonComponentMorph/css/demo.css" />
+   <link rel="stylesheet" type="text/css" href="https://tympanus.net/Development/ButtonComponentMorph/css/component.css" />
+   <script src="https://tympanus.net/Development/ButtonComponentMorph/js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="/assets\style.css" type='text/css'>
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+@media only screen and (max-width: 500px) {
+    img{
+        width:90%;
+    }
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("Parkinsons-Disease.png");
+    min-height: 100%;
+}
+.menu {
+    display: none;
+}
+
+.divwhite{
+  background:white;
+}
+h5{
+  font-size: 30px;
+  font-weight: bolder;
+  color:red;
+}
+h4{
+  font-size: 30px;
+  font-weight: bolder;
+  color:red;
+}
+p{
+font-family: 'Lobster', cursive;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s2">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#about" class="w3-button w3-block w3-black">About</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#menu" class="w3-button w3-block w3-black">Symptoms</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#faq" class="w3-button w3-block w3-black">FAQ's</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#Therapy" class="w3-button w3-block w3-black">Therapy</a>
+    </div>
+    <div class="w3-col s2">
+      <a id="robbie" class="w3-button w3-block w3-black " >Robbie</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <!-- <span class="w3-tag">Any link</span> -->
+  </div>
+  <div class="w3-display-middle w3-center">
+    <!-- <span class="w3-text-white" style="font-size:90px">The<br>Cafe</span> -->
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <!-- <span class="w3-text-white">15 Adr street, 5015</span> -->
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container divwhite" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">About Parkinson's</span></h5>
+    <p>Parkinson's disease is the second most common neurodegenerative disorder and the most common movement disorder. Characteristics of Parkinson’s disease are progressive loss of muscle control, which leads to trembling of the limbs and head while at rest, stiffness, slowness, and impaired balance. As symptoms worsen, it may become difficult to walk, talk, and complete simple tasks.</p>
+    <p>The progression of Parkinson's disease and the degree of impairment vary from person to person. Many people with Parkinson's disease live long productive lives, whereas others become disabled much more quickly. Complications of Parkinson’s such as falling-related injuries or pneumonia can cause premature death. However, studies of patent populations with and without Parkinson’s Disease suggest the life expectancy for people with the disease is about the same as the general population.
+<br>
+Most individuals who develop Parkinson's disease are 60 years of age or older. Since overall life expectancy is rising, the number of individuals with Parkinson's disease will increase in the future. Adult-onset Parkinson's disease is most common, but early-onset Parkinson's disease (onset between 21-40 years), and juvenile-onset Parkinson's disease (onset before age 21) can occur.<br>
+
+Descriptions of Parkinson's disease date back as far as 5000 BC. Around that time, an ancient Indian civilization called the disorder Kampavata and treated it with the seeds of a plant containing therapeutic levels of what is today known as levodopa. Parkinson's disease was named after the British doctor James Parkinson, who in 1817 first described the disorder in detail as "shaking palsy."</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Symptoms</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'primary');" id="myLink">
+        <div class="w3-col s6 tablink">Primary</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'secondary');">
+        <div class="w3-col s6 tablink">Secondary</div>
+      </a>
+    </div>
+
+    <div id="primary" class="w3-container menu w3-padding-48 w3-card">
+      <h5>The primary symptoms of Parkinson's disease</h5>
+      <p>The primary symptoms of Parkinson's disease are all related to voluntary and involuntary motor function and usually start on one side of the body. Symptoms are mild at first and will progress over time. Some individuals are more affected than others are. Studies have shown that by the time that primary symptoms appear, individuals with Parkinson's disease will have lost 60% to 80% or more of the dopamine-producing cells in the brain. Characteristic motor symptoms include the following:
+<br><br>
+Tremors: Trembling in fingers, hands, arms, feet, legs, jaw, or head. Tremors most often occur while the individual is resting, but not while involved in a task. Tremors may worsen when an individual is excited, tired, or stressed.<br>
+Rigidity: Stiffness of the limbs and trunk, which may increase during movement. Rigidity may produce muscle aches and pain. Loss of fine hand movements can lead to cramped handwriting (micrographia) and may make eating difficult.<br>
+Bradykinesia: Slowness of voluntary movement. Over time, it may become difficult to initiate movement and to complete movement. Bradykinesia together with stiffness can also affect the facial muscles and result in an expressionless, "mask-like" appearance.<br>
+Postural instability: Impaired or lost reflexes can make it difficult to adjust posture to maintain balance. Postural instability may lead to falls.<br>
+Parkinsonian gait: Individuals with more progressive Parkinson's disease develop a distinctive shuffling walk with a stooped position and a diminished or absent arm swing. It may become difficult to start walking and to make turns. Individuals may freeze in mid-stride and appear to fall forward while walking.</p><br>
+    </div>
+
+    <div id="secondary" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Secondary symptoms of Parkinson's disease</h5>
+      <p>
+
+While the main symptoms of Parkinson's disease are movement-related, progressive loss of muscle control and continued damage to the brain can lead to secondary symptoms. These vary in severity, and not every individual will experience all of them. Some of the secondary symptoms include:
+<br>
+1) anxiety, insecurity, and stress <br>
+2) confusion, memory loss, and dementia (more common in elderly individuals) <br>
+3) constipation <br>
+4) depression <br>
+5) difficulty swallowing and excessive salivation <br>
+6) diminished sense of smell <br>
+7) increased sweating <br>
+8) male erectile dysfunction <br>
+9) skin problems <br>
+10) slowed, quieter speech, and monotone voice <br>
+11) urinary frequency/urgency <br>
+</p><br>
+
+
+    </div>
+  </div>
+  <br /><Br />
+</div>
+
+
+<div class="w3-container divwhite" id="faq">
+  <div class="w3-content" style="max-width:700px">
+    <h3 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">FAQ's</span></h3>
+    <h4>What causes Parkinson's disease?</h4>
+    <p>
+      A substance called dopamine acts as a messenger between two brain areas - the substantia nigra and the corpus striatum - to produce smooth, controlled movements. Most of the movement-related symptoms of Parkinson's disease are caused by a lack of dopamine due to the loss of dopamine-producing cells in the substantia nigra. When the amount of dopamine is too low, communication between the substantia nigra and corpus striatum becomes ineffective, and movement becomes impaired; the greater the loss of dopamine, the worse the movement-related symptoms. Other cells in the brain also degenerate to some degree and may contribute to non-movement related symptoms of Parkinson's disease.
+<br>
+Although it is well known that lack of dopamine causes the motor symptoms of Parkinson's disease, it is not clear why the dopamine-producing brain cells deteriorate. Genetic and pathological studies have revealed that various dysfunctional cellular processes, inflammation, and stress can all contribute to cell damage. In addition, abnormal clumps called Lewy bodies, which contain the protein alpha-synuclein, are found in many brain cells of individuals with Parkinson's disease. The function of these clumps in regards to Parkinson's disease is not understood. In general, scientists suspect that dopamine loss is due to a combination of genetic and environmental factors.
+  </p>
+  <br><br>
+  <h4>What are the stages of Parkinson's disease?</h4>
+  <p>Researchers may disagree on the number of stages of Parkinson’s disease (range from 3-5 stages), however, they all agree that the disease is progressive with symptoms that usually occur in one stage, and may overlap or occur in another stage. The stage increase in number value for all stage naming systems reflect the increasing severity of the disease. The stages used by the Parkinson’s Foundation will be reviewed.
+<br>
+Stage 1: mild symptoms (tremors and/or movement symptoms like swinging arm while walking) do not interfere with daily activities and occur on one side of the body.<br>
+Stage 2: Symptoms worsen with walking problems and both sides of the body are affected.<br>
+Stage 3: Main symptoms worsen with loss of balance and slowness of movement.<br>
+Stage 4: Severity of symptoms require help; usually the person cannot live alone.<br>
+Stage 5: Caregiver is needed for all activities. The individual may not be able to stand or walk, and may be bedridden, and have hallucinations and delusions.</p><br><br>
+
+<h4>Is Parkinson's disease inherited (genetic)?</h4>
+<p>In most individuals, Parkinson's disease is idiopathic, which means that it arises sporadically with no known cause. However, some of individuals diagnosed with Parkinson's also have family members with the disease. By studying families with hereditary Parkinson's disease, scientists have identified several genes that are associated with the disorder. Studying these genes helps understand the cause of Parkinson's disease and may lead to new therapies. So far, five genes have been identified that are definitively associated with Parkinson's disease.
+<br>
+SNCA (synuclein, alpha non A4 component of amyloid precursor): SNCA makes the protein alpha-synuclein. In brain cells of individuals with Parkinson's disease, this protein aggregates in clumps called Lewy bodies. Mutations in the SNCA gene are found in early-onset Parkinson's disease.
+<br>
+PARK2 (Parkinson's disease autosomal recessive, juvenile 2): The PARK2 gene makes the protein parkin. Mutations of the PARK2 gene are mostly found in individuals with juvenile Parkinson's disease. Parkin normally helps cells break down and recycle proteins.
+<br>
+PARK7 (Parkinson's disease autosomal recessive, early onset 7): PARK7 mutations are found in early-onset Parkinson's disease. The PARK7 gene makes the DJ-1 protein, which may protect cells from oxidative stress.
+<br>
+PINK1 (PTEN-induced putative kinase 1): Mutations of this gene are found in early-onset Parkinson's disease. The exact function of the protein made by PINK1 is not known, but it may protect structures within the cell called mitochondria from stress.
+<br>
+LRRK2 (leucine-rich repeat kinase 2): LRRK2 makes the protein dardarin. Mutations in the LRRK2 gene have been linked to late-onset Parkinson's disease.
+<br>
+Several other chromosome regions and the genes GBA (glucosidase beta acid), SNCAIP (synuclein alpha interacting protein), and UCHL1 (ubiquitin carboxyl-terminal esterase L1) may also be linked to Parkinson's disease.</p>
+<br><br>
+<h4>Who gets Parkinson's disease?</h4>
+<p>Age is the largest risk factor for the development and progression of Parkinson's disease. Most people who develop Parkinson's disease are older than 60 years of age.<br>
+Men are affected about 1.5 to 2 times more often than women.<br>
+A small number of individuals are at increased risk because of a family history of the disorder.<br>
+Head trauma , illness, or exposure to environmental toxins such as pesticides and herbicides may be a risk factor.</p><br><br>
+
+<h4>What other conditions resemble Parkinson's disease?</h4>
+<p>In its early stages, Parkinson's disease can resemble a number of other conditions with Parkinson-like symptoms known as Parkinsonism. These conditions include multiple system atrophy, progressive supranuclear palsy, corticobasal degeneration, Lewy body dementia, stroke, encephalitis (inflammation of the brain), and head trauma. Alzheimer's disease and primary lateral sclerosis can also be mistaken for Parkinson's disease. Other similar conditions include essential tremor, dystonic tremor, vascular Parkinsonism, and drug-induced Parkinsonism.</p><br><br>
+
+<h4>Is there a test to diagnose Parkinson's disease?</h4>
+<p>An early and accurate diagnosis of Parkinson's disease is important in developing good treatment strategies to maintain a high quality of life for as long as possible. However, there is no test to diagnose Parkinson's disease with certainty (except after the individual has passed away). A diagnosis of Parkinson's disease - especially in the early phase - can be challenging due to similarities to related movement disorders and other conditions with Parkinson-like symptoms. Individuals may sometimes be misdiagnosed as having another disorder, and sometimes individuals with Parkinson-like symptoms may be inaccurately diagnosed as having Parkinson's disease. It is therefore important to re-evaluate individuals in the early phase on a regular basis to rule out other conditions that may be responsible for the symptoms.
+
+A neurologist who specializes in movement disorders will be able to make the most accurate diagnosis. An initial assessment is made based on medical history, a neurological exam, and the symptoms present. For the medical history, it is important to know whether other family members have Parkinson's disease, what types of medication have been or are being taken, and whether there was exposure to toxins or repeated head trauma previously. A neurological exam may include an evaluation of coordination, walking, and fine motor tasks involving the hands.
+
+Several guidelines have been published to assist in the diagnosis of Parkinson's disease. These include the Hoehn and Yahr scale and the Unified Parkinson's Disease Rating Scale. Tests are used to measure mental capacity, behavior, mood, daily living activities, and motor function. They can be very helpful in the initial diagnosis, to rule out other disorders, as well as in monitoring the progression of the disease to make therapeutic adjustments. Brain scans and other laboratory tests are also sometimes carried out, mostly to detect other disorders resembling Parkinson's disease.
+
+The diagnosis of Parkinson's disease is more likely if:
+
+at least two of the three major symptoms are present (tremor at rest, muscle rigidity, and slowness);<br>
+the onset of symptoms started on one side of the body;<br>
+symptoms are not due to secondary causes such as medication or strokes in the area controlling movement; and <br>
+symptoms are significantly improved with levodopa.</p><br><br>
+
+<h4>What is the treatment for Parkinson's disease?</h4>
+<p>There is currently no treatment to cure Parkinson's disease. Several therapies are available to delay the onset of motor symptoms and to ameliorate motor symptoms. All of these therapies are designed to increase the amount of dopamine in the brain either by replacing dopamine, mimicking dopamine, or prolonging the effect of dopamine by inhibiting its breakdown. Studies have shown that early therapy in the non-motor stage can delay the onset of motor symptoms, thereby extending quality of life.
+
+The most effective therapy for Parkinson's disease is levodopa (Sinemet), which is converted to dopamine in the brain. However, because long-term treatment with levodopa can lead to unpleasant side effects (a shortened response to each dose, painful cramps, and involuntary movements), its use is often delayed until motor impairment is more severe. Levodopa is frequently prescribed together with carbidopa (Sinemet), which prevents levodopa from being broken down before it reaches the brain. Co-treatment with carbidopa allows for a lower levodopa dose, thereby reducing side effects.<br>
+
+In earlier stages of Parkinson's disease, substances that mimic the action of dopamine (dopamine agonists), and substances that reduce the breakdown of dopamine (monoamine oxidase type B (MAO-B) inhibitors) can be very efficacious in relieving motor symptoms. Unpleasant side effects of these preparations are quite common, including swelling caused by fluid accumulation in body tissues, drowsiness, constipation, dizziness, hallucinations, and nausea.<br>
+
+For some individuals with advanced, virtually unmanageable motor symptoms, surgery may be an option. In deep brain stimulation (DBS), the surgeon implants electrodes to stimulate areas of the brain involved in movement. In another type of surgery, specific areas in the brain that cause Parkinson's symptoms are destroyed.<br>
+
+An alternative approach that has been explored is the use of dopamine-producing cells derived from stem cells. While stem cell therapy has great potential, more research is required before such cells can become of therapeutic value in the treatment of Parkinson's disease.<br>
+
+In addition to medication and surgery, general lifestyle changes (rest and exercise), physical therapy, occupational therapy, and speech therapy may be beneficial.<br>
+
+</p><br><br>
+
+<h4>Can Parkinson's disease be prevented?</h4>
+<p>Scientists currently believe that Parkinson's disease is triggered through a complex combination of genetic susceptibility and exposure to environmental factors such as toxins, illness, and trauma. Since the exact causes are not known, Parkinson's disease is at present not preventable.</p><br><br>
+</div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container divgrey" id="Therapy" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Let's have some fun...</span></h5>
+  </div>
+  <!-- First Grid -->
+<div id="game" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Therapy 1</h1>
+      <br /><br />
+      <h9 class="w3-padding-32" style="font-family:Courier, monospace;">This Game emphasises on the color combination that the patient see's across the screen.
+        Primarily There are three colors added to the menu that namely RED, BLUE GREEN(RBG).The patient needs to wave or move his finger around the particular
+        color as instructed by the trainer to make his concentration and accuracy better.
+</h9>
+<br /><br />
+      <button ><a href="Therapy1\therapy1.html">Start Now!!</a></button>
+    </div>
+
+    <div class="w3-third w3-center">
+      <br />
+      <img src="th1.gif" />
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div id="artist" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <br />
+      <br />
+      <br />
+<img src="th2.gif"  width="350px" style="margin-left:-75px;"/>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Therapy 2</h1>
+      <br />
+      <br />
+      <h9 class="w3-padding-32" style="font-family:Courier, monospace;">This Game deals with a Musical Cum movement control therapy as the Screen with the help of webcam or technically
+      saying(Computer Vision) creates a virtual Xylophone effect that plays the music as the patient hit the keys on seeing the camera waving his/her hand.The Game also plays a pleasent
+      sound on hitting the keys as well ass concentrates on the improvement as the trainer instruct the patient to play a particular tone.</h9>
+<br /><br />
+  <button ><a href="Therapy2\therapy2.html">Start Now!!</a></button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- First Grid -->
+<div id="game" class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-content">
+  <div class="w3-twothird">
+    <h1>Therapy 3</h1>
+    <br /><br />
+    <h9 class="w3-padding-32" style="font-family:Courier, monospace;">This Game deals with strengthening holding ability of the patient by virtue of
+       holding the cursor inside the box.The Ball or the circular object that is seen inside the box is customised in such a way that it tries to move out of the box.
+      The patient is required to Keep it controlled. Which improves his Object holding ability over time. </h9>
+<br /><br />
+    <button ><a href="Therapy3\therapy3.html">Start Now!!</a></button>
+  </div>
+
+  <div class="w3-third w3-center">
+    <br />
+    <img src="th3.gif" />
+  </div>
+</div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+
+
+<style>
+html, body {
+  background: #efefef;
+  height:100%;
+}
+#center-text {
+  display: flex;
+  flex: 1;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+
+}
+#chat-circle {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: #5A5EB9;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: white;
+  padding: 28px;
+  cursor: pointer;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.6), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn#my-btn {
+     background: white;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    border-radius: 45px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #5865C3;
+}
+#chat-overlay {
+    background: rgba(255,255,255,0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: none;
+}
+
+
+.chat-box {
+  display:none;
+  background: #efefef;
+  position:fixed;
+  right:30px;
+  bottom:50px;
+  width:350px;
+  max-width: 85vw;
+  max-height:100vh;
+  border-radius:5px;
+/*   box-shadow: 0px 5px 35px 9px #464a92; */
+  box-shadow: 0px 5px 35px 9px #ccc;
+}
+.chat-box-toggle {
+  float:right;
+  margin-right:15px;
+  cursor:pointer;
+}
+.chat-box-header {
+  background: #5A5EB9;
+  height:70px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  color:white;
+  text-align:center;
+  font-size:20px;
+  padding-top:17px;
+}
+.chat-box-body {
+  position: relative;
+  height:370px;
+  height:auto;
+  border:1px solid #ccc;
+  overflow: hidden;
+}
+.chat-box-body:after {
+  content: "";
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAgOCkiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGNpcmNsZSBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMS4yNSIgY3g9IjE3NiIgY3k9IjEyIiByPSI0Ii8+PHBhdGggZD0iTTIwLjUuNWwyMyAxMW0tMjkgODRsLTMuNzkgMTAuMzc3TTI3LjAzNyAxMzEuNGw1Ljg5OCAyLjIwMy0zLjQ2IDUuOTQ3IDYuMDcyIDIuMzkyLTMuOTMzIDUuNzU4bTEyOC43MzMgMzUuMzdsLjY5My05LjMxNiAxMC4yOTIuMDUyLjQxNi05LjIyMiA5LjI3NC4zMzJNLjUgNDguNXM2LjEzMSA2LjQxMyA2Ljg0NyAxNC44MDVjLjcxNSA4LjM5My0yLjUyIDE0LjgwNi0yLjUyIDE0LjgwNk0xMjQuNTU1IDkwcy03LjQ0NCAwLTEzLjY3IDYuMTkyYy02LjIyNyA2LjE5Mi00LjgzOCAxMi4wMTItNC44MzggMTIuMDEybTIuMjQgNjguNjI2cy00LjAyNi05LjAyNS0xOC4xNDUtOS4wMjUtMTguMTQ1IDUuNy0xOC4xNDUgNS43IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMS4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTg1LjcxNiAzNi4xNDZsNS4yNDMtOS41MjFoMTEuMDkzbDUuNDE2IDkuNTIxLTUuNDEgOS4xODVIOTAuOTUzbC01LjIzNy05LjE4NXptNjMuOTA5IDE1LjQ3OWgxMC43NXYxMC43NWgtMTAuNzV6IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMS4yNSIvPjxjaXJjbGUgZmlsbD0iIzAwMCIgY3g9IjcxLjUiIGN5PSI3LjUiIHI9IjEuNSIvPjxjaXJjbGUgZmlsbD0iIzAwMCIgY3g9IjE3MC41IiBjeT0iOTUuNSIgcj0iMS41Ii8+PGNpcmNsZSBmaWxsPSIjMDAwIiBjeD0iODEuNSIgY3k9IjEzNC41IiByPSIxLjUiLz48Y2lyY2xlIGZpbGw9IiMwMDAiIGN4PSIxMy41IiBjeT0iMjMuNSIgcj0iMS41Ii8+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTkzIDcxaDN2M2gtM3ptMzMgODRoM3YzaC0zem0tODUgMThoM3YzaC0zeiIvPjxwYXRoIGQ9Ik0zOS4zODQgNTEuMTIybDUuNzU4LTQuNDU0IDYuNDUzIDQuMjA1LTIuMjk0IDcuMzYzaC03Ljc5bC0yLjEyNy03LjExNHpNMTMwLjE5NSA0LjAzbDEzLjgzIDUuMDYyLTEwLjA5IDcuMDQ4LTMuNzQtMTIuMTF6bS04MyA5NWwxNC44MyA1LjQyOS0xMC44MiA3LjU1Ny00LjAxLTEyLjk4N3pNNS4yMTMgMTYxLjQ5NWwxMS4zMjggMjAuODk3TDIuMjY1IDE4MGwyLjk0OC0xOC41MDV6IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMS4yNSIvPjxwYXRoIGQ9Ik0xNDkuMDUgMTI3LjQ2OHMtLjUxIDIuMTgzLjk5NSAzLjM2NmMxLjU2IDEuMjI2IDguNjQyLTEuODk1IDMuOTY3LTcuNzg1LTIuMzY3LTIuNDc3LTYuNS0zLjIyNi05LjMzIDAtNS4yMDggNS45MzYgMCAxNy41MSAxMS42MSAxMy43MyAxMi40NTgtNi4yNTcgNS42MzMtMjEuNjU2LTUuMDczLTIyLjY1NC02LjYwMi0uNjA2LTE0LjA0MyAxLjc1Ni0xNi4xNTcgMTAuMjY4LTEuNzE4IDYuOTIgMS41ODQgMTcuMzg3IDEyLjQ1IDIwLjQ3NiAxMC44NjYgMy4wOSAxOS4zMzEtNC4zMSAxOS4zMzEtNC4zMSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEuMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48L3N2Zz4=');
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height:100%;
+  position: absolute;
+  z-index: -1;
+}
+#chat-input {
+  background: #f4f7f9;
+  width:100%;
+  position:relative;
+  height:47px;
+  padding-top:10px;
+  padding-right:50px;
+  padding-bottom:10px;
+  padding-left:15px;
+  border:none;
+  resize:none;
+  outline:none;
+  border:1px solid #ccc;
+  color:#888;
+  border-top:none;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+  overflow:hidden;
+}
+.chat-input > form {
+    margin-bottom: 0;
+}
+#chat-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc;
+}
+#chat-input::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc;
+}
+#chat-input:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc;
+}
+#chat-input:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;
+}
+.chat-submit {
+  position:absolute;
+  bottom:3px;
+  right:10px;
+  background: transparent;
+  box-shadow:none;
+  border:none;
+  border-radius:50%;
+  color:#5A5EB9;
+  width:35px;
+  height:35px;
+}
+.chat-logs {
+  padding:15px;
+  height:370px;
+  overflow-y:scroll;
+}
+
+.chat-logs::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.chat-logs::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.chat-logs::-webkit-scrollbar-thumb
+{
+	background-color: #5A5EB9;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+   .chat-logs {
+        height:40vh;
+    }
+}
+
+.chat-msg.user > .msg-avatar img {
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  float:left;
+  width:15%;
+}
+.chat-msg.self > .msg-avatar img {
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  float:right;
+  width:15%;
+}
+.cm-msg-text {
+  background:white;
+  padding:10px 15px 10px 15px;
+  color:#666;
+  max-width:75%;
+  float:left;
+  margin-left:10px;
+  position:relative;
+  margin-bottom:20px;
+  border-radius:30px;
+}
+.chat-msg {
+  clear:both;
+}
+.chat-msg.self > .cm-msg-text {
+  float:right;
+  margin-right:10px;
+  background: #5A5EB9;
+  color:white;
+}
+.cm-msg-button>ul>li {
+  list-style:none;
+  float:left;
+  width:50%;
+}
+.cm-msg-button {
+    clear: both;
+    margin-bottom: 70px;
+}
+.fa-qq{
+  font-size:25px;
+}
+</style>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+var robbie = new robbieBot();
+var robbieLines = new Array();
+
+var displayCols = 60;
+var displayRows = 20;
+
+function robbieReset() {
+robbie.reset();
+robbieLines.length = 0;
+robbieStep();
+}
+
+function robbieStep() {
+var f = document.forms.e_form;
+var userinput = f.e_input.value;
+if (robbie.quit) {
+  f.e_input.value = '';
+  if (confirm("This session is over.\nStart over?")) robbieReset();
+  f.e_input.focus();
+  return;
+}
+else if (userinput != '') {
+  var usr = 'YOU:   ' + userinput;
+  var rpl ='Robbie: ' + robbie.transform(userinput);
+  robbieLines.push(usr);
+  robbieLines.push(rpl);
+  // display nicely
+  // (fit to textarea with last line free - reserved for extra line caused by word wrap)
+  var temp  = new Array();
+  var l = 0;
+  for (var i=robbieLines.length-1; i>=0; i--) {
+    l += 1 + Math.floor(robbieLines[i].length/displayCols);
+    if (l >= displayRows) break
+    else temp.push(robbieLines[i]);
+  }
+  robbieLines = temp.reverse();
+  f.e_display.value = robbieLines.join('\n');
+}
+else if (robbieLines.length == 0) {
+  // no input and no saved lines -> output initial
+  var initial = 'Robbie: ' + robbie.getInitial();
+  robbieLines.push(initial);
+  f.e_display.value = initial + '\n';
+}
+f.e_input.value = '';
+f.e_input.focus();
+}
+
+//-->
+</SCRIPT>
+
+
+<div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+		    <i class="fa fa-qq"></i>
+	</div>
+
+  <div class="chat-box" >
+    <div class="chat-box-header">
+      <span class="chat-box-toggle"><i class="fa fa-close"></i></span>
+      <center>
+        ROBBIE
+      </center>
+
+    </div>
+
+
+      <div class="chat-logs">
+        <FORM NAME="e_form" onsubmit="robbieStep();return false">
+        <TR><TD COLSPAN="2"><TEXTAREA  placeholder="Robbie:How do you do.  Please tell me your problem.
+"NAME="e_display" COLS="38" ROWS="14" readonly></TEXTAREA></TD></TR>
+        <TR VALIGN="middle">
+          <br />
+          <TD><INPUT TYPE="text" NAME="e_input" SIZE="38"></TD>
+            <br />
+            <br />
+          <center>
+            <TD ALIGN="right"><INPUT TYPE="submit" class="btn btn-primary" VALUE="&nbsp;Talk&nbsp;"> <INPUT TYPE="reset" VALUE="Reset" class="btn btn-danger" onClick="window.setTimeout('robbieReset()',100)"></TD>
+          </center>
+        </TR>
+        </FORM>
+      </div><!--chat-log -->
+    </div>
+    <div class="chat-input">
+
+    </div>
+
+
+
+
+
+</div>
+<script>$(function() {
+
+
+  $(document).delegate(".chat-btn", "click", function() {
+    var value = $(this).attr("chat-value");
+    var name = $(this).html();
+    $("#chat-input").attr("disabled", false);
+    generate_message(name, 'self');
+  })
+
+  $("#chat-circle").click(function() {
+    $("#chat-circle").toggle('scale');
+    $(".chat-box").toggle('scale');
+  })
+  $("#robbie").click(function() {
+    $("#chat-circle").toggle('scale');
+    $(".chat-box").toggle('scale');
+  })
+  $(".chat-box-toggle").click(function() {
+    $("#chat-circle").toggle('scale');
+    $(".chat-box").toggle('scale');
+  })
+
+})</script>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-large">
+  <p>Designed & Developed by  <a href="#" title="CypherOps" target="_blank" class="w3-hover-text-green">CypherOps</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
